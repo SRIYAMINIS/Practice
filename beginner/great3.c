@@ -5,17 +5,17 @@ int main(void) {
 	scanf("%d%d%d",&a,&b,&c);
 	if(a>b){
 		if(a>c){
-			printf("a is greater");
+			printf("a");
 		}
 		else{
-			printf("c is greater");
+			printf("c");
 		}
 	}
 	else if(b>c){
-		printf("b is greater");
+		printf("b");
 	}
 	else{
-		printf("c is greater");
+		printf("c");
 	}
 	return 0;
 }
