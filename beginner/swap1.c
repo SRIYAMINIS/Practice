@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main(void)
+#include <stdio.h>
+int main()
 {
 	int i,j,k;
 	scanf("%d",&i);
@@ -8,6 +8,6 @@ int main(void)
 	k=i;
 	i=j;
 	j=k;
-	printf("\nafter swapping i=%d and j=%d",i,j);
+	printf("after swapping i=%d and j=%d",i,j);
 	return 0;
 }
